@@ -1,0 +1,34 @@
+{
+  "name": "covariance",
+  "version": "0.0.0",
+  "description": "In probability theory and statistics, covariance is a measure of how much two random variables change together. http://en.wikipedia.org/wiki/Covariance",
+  "main": "src/covariance.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bytespider/covariance"
+  },
+  "keywords": [
+    "statistics"
+  ],
+  "author": {
+    "name": "Rob Griffiths",
+    "email": "rob@bytespider.eu",
+    "url": "http://bytespider.eu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bytespider/covariance/issues"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
+  },
+  "dependencies": {
+    "average": "~0.0.1"
+  }
+}
